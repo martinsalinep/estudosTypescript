@@ -1,9 +1,10 @@
-let x = 10; //eslint-disable-line
+/* eslint-disable @typescript-eslint/no-unused-vars */
+let x = 10;
 x = 0b101010;
 const y = 10;
-//let a: 100 = 100; //eslint-disable-line
+//let a: 100 = 100;
 //a = 120;
-let a = 100 as const; //eslint-disable-line
+//let a = 100 as const;
 
 const person = {
   nome: 'aline' as const,
